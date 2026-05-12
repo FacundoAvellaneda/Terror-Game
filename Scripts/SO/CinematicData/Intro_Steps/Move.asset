@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1dffbbca5010db46beecbeb4bcad2a4, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  actorID: FordCar
+  waypoints:
+  - {x: 82.67, y: 0.20000002, z: -58.58}
+  - {x: 70.29, y: 0.20000002, z: -58.6}
+  - {x: 58.56, y: 0.20000002, z: -58.01}
+  - {x: 49.67, y: 0.20000002, z: -59.44}
+  - {x: 35.75, y: 0.20000002, z: -58.6}
+  - {x: 20.52, y: 0.20000002, z: -58.2}
+  - {x: 10.95, y: 0.20000002, z: -59.98}
+  - {x: 3.23, y: 0.20000002, z: -57.59}
+  - {x: 1.23, y: 0.20000002, z: -49.59}
+  - {x: 2.55, y: 0.20000002, z: -38.43}
+  - {x: -0.37, y: 0.20000002, z: -30.25}
+  - {x: -0.55, y: 0.20000002, z: -15.82}
+  destination: {x: -0.55, y: 0.20000002, z: -15.82}
+  duration: 35
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  smoothTime: 0.15
+  maxSpeed: 40
+  rotationMode: 2
+  targetRotation: {x: 0, y: 90, z: 0}
+  dynamicLook: 1
+  rotationSmooth: 10
+  stopRigidBody: 1
+  setKinematicOnFinish: 0
+  disableActorOnFinish: 1

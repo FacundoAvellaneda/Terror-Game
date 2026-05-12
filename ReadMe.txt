@@ -1,0 +1,1 @@
+Dejo la carpeta con scripts debido a un problema con gitHub que estoy buscando solucionar.
